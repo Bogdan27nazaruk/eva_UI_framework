@@ -41,6 +41,7 @@ public class SmokeTests extends AbstractTestBase {
                 .clickTrackingOrderBtn();
 
         assertEquals(trackingPage.getTextOrderStatus(),"Нове замовлення");
+        sleep(1);
         assertTrue(getUrl().contains(orderNumber));
     }
 }
