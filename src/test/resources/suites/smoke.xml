@@ -3,9 +3,9 @@
 
 <suite name="Smoke suite">
 
-<!--    <listeners>-->
-<!--        <listener class-name="listener.RetryListener"/>-->
-<!--    </listeners>-->
+    <listeners>
+        <listener class-name="listener.RetryListener"/>
+    </listeners>
 
     <test name="Smoke tests">
         <classes>
